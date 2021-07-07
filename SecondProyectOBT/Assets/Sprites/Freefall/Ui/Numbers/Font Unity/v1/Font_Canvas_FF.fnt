@@ -1,0 +1,18 @@
+info face="C:\Users\Maxi\Desktop\Font_Canvas_FF-export" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=80 base=26 scaleW=2048 scaleH=1024 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="C:\Users\Maxi\Desktop\Font_Canvas_FF-export.png"
+chars count=12
+char id=48 x=0 y=461 width=357 height=460 xoffset=0 yoffset=-379 xadvance=358 page=0 chnl=0 letter="0"
+char id=49 x=1011 y=0 width=284 height=459 xoffset=0 yoffset=-379 xadvance=285 page=0 chnl=0 letter="1"
+char id=50 x=358 y=461 width=327 height=460 xoffset=0 yoffset=-380 xadvance=328 page=0 chnl=0 letter="2"
+char id=51 x=1296 y=0 width=285 height=466 xoffset=0 yoffset=-382 xadvance=286 page=0 chnl=0 letter="3"
+char id=52 x=0 y=0 width=358 height=460 xoffset=0 yoffset=-380 xadvance=359 page=0 chnl=0 letter="4"
+char id=53 x=1296 y=467 width=284 height=494 xoffset=0 yoffset=-398 xadvance=285 page=0 chnl=0 letter="5"
+char id=54 x=686 y=0 width=324 height=463 xoffset=0 yoffset=-381 xadvance=325 page=0 chnl=0 letter="6"
+char id=55 x=686 y=464 width=304 height=456 xoffset=0 yoffset=-379 xadvance=305 page=0 chnl=0 letter="7"
+char id=56 x=991 y=464 width=304 height=457 xoffset=0 yoffset=-379 xadvance=305 page=0 chnl=0 letter="8"
+char id=57 x=359 y=0 width=314 height=453 xoffset=0 yoffset=-377 xadvance=315 page=0 chnl=0 letter="9"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0
