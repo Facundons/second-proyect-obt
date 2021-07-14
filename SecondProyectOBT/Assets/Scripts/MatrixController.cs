@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MatrixController : MonoBehaviour
 {
-    private int[,] matrix = new int[4, 4]; // asky why i can't do it with a 3x3 matrix
+    private int[,] matrix = new int[3, 3];
     private void Awake()
     {
         UiController.onStartGame += onStartGame;
@@ -23,7 +23,7 @@ public class MatrixController : MonoBehaviour
         {
             for (int column = 0; column <= 2; column++)
             {
-                matrix[row, column] = Random.Range(1, 9);
+                matrix[row, column] = Random.Range(0, 8);
             }
         }
     }

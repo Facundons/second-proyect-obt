@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e680d1bb98f80e24596ddc7b4f4e6bdc, type: 3}
+  m_Name: block
+  m_EditorClassIdentifier: 
+  blockSprite:
+  - {fileID: 21300000, guid: 8679d96035631b4499291a9ca027f2ce, type: 3}
+  - {fileID: 21300000, guid: 71ab54e19eb08a643b25fb6b0df4dda4, type: 3}
+  - {fileID: 21300000, guid: 5fd2d4d86ee99a84489bf2563744d237, type: 3}
+  - {fileID: 21300000, guid: fe733128e910db14d8927a3271b51736, type: 3}
+  - {fileID: 21300000, guid: 05d9285a6e6801240a1752b92b218d3d, type: 3}
+  - {fileID: 21300000, guid: 57f8986312ba8b941a0bbae73a6743ec, type: 3}
+  - {fileID: 21300000, guid: e32b505ff0bbfd844b9655d18523af32, type: 3}
+  - {fileID: 21300000, guid: 2168d96385bfd674584d103be1c4d6c1, type: 3}
+  - {fileID: 21300000, guid: f12be313c799ac14aa350574a0cc0bd3, type: 3}
+  destroyAnimation:
+  - {fileID: 7400000, guid: 38b104ec520bbe0469ba526e2a1b1c26, type: 2}
+  - {fileID: 7400000, guid: aceaa721bf9dc52449e2ef25e1bd043c, type: 2}
+  - {fileID: 7400000, guid: 9de792959dd9928409013beab278d9c2, type: 2}
+  - {fileID: 7400000, guid: 1f0388cf0da34834f9d79de06e5b1284, type: 2}
+  - {fileID: 7400000, guid: 690b70387150cce42aeb8f28752814fd, type: 2}
+  - {fileID: 7400000, guid: 9d1f43644ec1f2b4bb838f66f541b127, type: 2}
+  - {fileID: 7400000, guid: 6e8f4c7ca5c496d4abe8985ad3d3ef4d, type: 2}
+  - {fileID: 7400000, guid: e86a2835b32a54b4ba9c5a4bc28a9a5b, type: 2}
+  - {fileID: 7400000, guid: 27d56dc9f4740fa4a842ddf40cf77d61, type: 2}

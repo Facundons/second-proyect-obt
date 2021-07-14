@@ -5,6 +5,7 @@ using UnityEngine;
 public class BlockController : MonoBehaviour
 {
     private Animator animator;
+    [SerializeField] private BlockScriptableObject block;
 
     private void Awake()
     {
