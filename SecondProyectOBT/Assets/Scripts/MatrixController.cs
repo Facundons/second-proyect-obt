@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine;
 public class MatrixController : MonoBehaviour
 {
     private int[,] matrix = new int[3, 3];
+    public static event EventHandler<BlockParameters> onRandomNumberGeneration;
     private void Awake()
     {
         UiController.onStartGame += onStartGame;
@@ -23,7 +25,9 @@ public class MatrixController : MonoBehaviour
         {
             for (int column = 0; column <= 2; column++)
             {
-                matrix[row, column] = Random.Range(0, 8);
+                matrix[row, column] = UnityEngine.Random.Range(0, 8);
+                BlockParameters blockParameters = new BlockParameters(matrix[row, column], row, column);
+                onRandomNumberGeneration?.Invoke(this, blockParameters);
             }
         }
     }
